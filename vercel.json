@@ -8,8 +8,8 @@
     },
     "routes": [
         {
-            "src": "/(\\w*)\\.(?:jpg|jpeg|png|gif|bmp|webp)",
-            "dest": "api/index.php?id=$1"
+            "src": "/",
+            "dest": "api/index.php"
         }
     ]
 }
