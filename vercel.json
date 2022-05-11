@@ -1,6 +1,6 @@
 {
     "functions": {
-        "./index.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.5.0",
             "memory": 1024,
             "maxDuration": 10
@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/(\\w*)\\.(?:jpg|jpeg|png|gif|bmp|webp)",
-            "dest": "./index.php?id=$1"
+            "dest": "api/index.php?id=$1"
         }
     ]
 }
