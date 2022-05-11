@@ -10,7 +10,7 @@
     "routes": [
         {
             "src": "/(\\w*)\\.(?:jpg|jpeg|png|gif|bmp|webp)",
-            "dest": ./index.php?id=$1"
+            "dest": "./index.php?id=$1"
         }
     ]
 }
